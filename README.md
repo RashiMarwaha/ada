@@ -38,8 +38,8 @@ Similarity measures are used in data analysis, clustering, and recommendation sy
 Matrix operations are critical in linear algebra, graphics, AI, and scientific computing.
 
 - **Magic Square** – Generates a square matrix where the sum of each row, column, and diagonal is the same.
-- **Matrix Multiplication - Brute Force** – Implements standard matrix multiplication using three nested loops.
-- **Matrix Multiplication - Divide and Conquer** – Recursively divides matrices and combines the results for multiplication.
+- **Matrix Multiplication - Brute Force** – Implements standard matrix multiplication using three nested loops. O(n^3).
+- **Matrix Multiplication - Divide and Conquer** – Recursively divides matrices and combines the results for multiplication. O(n^3).
 - **Matrix Multiplication - Strassen Algorithm** – Optimized approach that reduces multiplication operations. Time Complexity: O(n^2.81).
 - **Determinant and Side Checking** – Calculates the determinant of a matrix and determines the relative position of points.
 
